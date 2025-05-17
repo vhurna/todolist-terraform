@@ -2,7 +2,7 @@ variable "location" {
   default = "uksouth"
 }
 variable "resource_group_name" {
-  default = "mate-azure-task-12"
+  default = "todolist-app"
 }
 variable "virtual_network_name" {
   default = "vnet"
@@ -28,7 +28,7 @@ variable "storage_container" {
   default = "task-artifacts"
 }
 variable "vm_name" {
-  default = "matebox"
+  default = "appbox"
 }
 variable "vm_size" {
   default = "Standard_B1s"
