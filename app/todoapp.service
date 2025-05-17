@@ -1,0 +1,11 @@
+[Unit]
+Description=todoapp service
+
+[Service]
+WorkingDirectory=/app
+ExecStart=/app/start.sh
+StandardOutput=syslog
+StandardError=syslog
+
+[Install]
+WantedBy=multi-user.target

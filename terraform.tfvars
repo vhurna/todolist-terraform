@@ -1,0 +1,5 @@
+dns_label               = "matetask"
+storage_account_name    = "todostorage43"
+backend_storage_account = "todostorage43"
+#backend_container       = "tfstate"
+storage_container       = "task-artifacts"
