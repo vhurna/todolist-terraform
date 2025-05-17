@@ -17,7 +17,7 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "this" {
-  name     = "mate-azure-task-12"
+  name     = "todolist-app"
   location = var.location
 }
 
