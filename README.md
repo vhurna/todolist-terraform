@@ -65,5 +65,5 @@ A sample Terraform configuration that automates the creation of an Azure infrast
 To destroy all resources:
 
 ```bash
-terraform destroy -var-file="terraform.tfvars" --auto-approve
+terraform destroy --auto-approve
 ```
