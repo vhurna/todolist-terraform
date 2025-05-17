@@ -6,7 +6,7 @@ apt-get install -yq python3-pip git unzip
 
 TMP_DIR="/tmp/todo-src"
 rm -rf "$TMP_DIR"
-git clone https://github.com/vhurna/devops_todolist_terraform_task.git "$TMP_DIR"
+git clone https://github.com/vhurna/todolist-terraform.git "$TMP_DIR"
 
 rm -rf /app && mkdir -p /app
 cp -r "$TMP_DIR"/app/* /app
