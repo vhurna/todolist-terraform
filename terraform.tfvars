@@ -1,4 +1,4 @@
-dns_label               = "matetask"
+dns_label               = "todo-dns"
 storage_account_name    = "todostorage43"
 backend_storage_account = "todostorage43"
 #backend_container       = "tfstate"
